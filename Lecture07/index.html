@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <title>MIni Project</title>
+
+    <style>
+      * {
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+      }
+
+      header {
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .logo {
+        width: 250px;
+      }
+
+      ul.nav-link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      li.link {
+        list-style: none;
+        padding: 18px;
+      }
+
+      li.link a {
+        color: white;
+        text-decoration: none;
+      }
+
+      input.search-box {
+        background: white;
+        width: 335px;
+        height: 41px;
+        border-radius: 5px;
+      }
+
+      button.search-button {
+        margin-right: 50px;
+        background: transparent;
+        color: white;
+        border: 2px solid;
+        padding: 9px 30px;
+        border-radius: 5px;
+      }
+
+      .about {
+        padding: 133px;
+        background: navajowhite;
+      }
+
+      h1.question {
+        font-weight: 600;
+        font-size: 35px;
+      }
+
+      p.answer {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 26px;
+        padding: 28px 0px 0px 0px;
+      }
+
+      footer {
+        background: black;
+        color: white;
+        text-align: center;
+        padding: 20px 0px;
+      }
+
+      footer a {
+        color: white;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <!-- This is our herder section -->
+
+      <header>
+        <img class="logo" src="logo.png" alt="company-logo" />
+        <ul class="nav-link">
+          <li class="link"><a href="#">Web Technology</a></li>
+          <li class="link"><a href="#">C Programming</a></li>
+          <li class="link"><a href="#">Courses</a></li>
+        </ul>
+        <div>
+          <input type="text" class="search-box" />
+          <button class="search-button">Search</button>
+        </div>
+      </header>
+
+      <!-- This is about section -->
+
+      <section>
+        <div class="about">
+          <h1 class="question">What is HTML?</h1>
+          <p class="answer">
+            HTML stands for HyperText Markup Language. It is used to design web
+            pages using a markup language. HTML is the combination of Hypertext
+            and Markup language. Hypertext defines the link between the web
+            pages. A markup language is used to define the text document within
+            tag which defines the structure of web pages. HTML is a markup
+            language that is used by the browser to manipulate text, images, and
+            other content to display it in the required format.
+          </p>
+        </div>
+      </section>
+
+      <!-- This is our footer section -->
+
+      <footer>
+        <p>
+          This is created by @
+          <a href="https://www.stuvalley.com/" target="_blank"
+            >Stualley Technology</a
+          >
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
